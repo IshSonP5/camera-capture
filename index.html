@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <title>Camera Capture</title>
+  </head>
+  <body>
+    <!-- Camera -->
+    <main id="camera">
+      <!-- Camera sensor -->
+      <canvas id="camera--sensor"></canvas>
+      <!-- Camera view -->
+      <video id="camera--view" autoplay playsinline></video>
+      <!-- Camera output -->
+      <img src="//:0" alt="" id="camera--output" />
+      <!-- Camera trigger -->
+      <button id="camera--trigger">Take a picture</button>
+    </main>
+    <!-- Reference to your JavaScript file -->
+    <script src="camera.js"></script>
+  </body>
+</html>
